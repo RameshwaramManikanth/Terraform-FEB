@@ -54,3 +54,4 @@ resource "aws_route_table_association" "natRTass"{
     subnet_id=aws_subnet.pvtsn.*.id[count.index]
 	route_table_id=aws_route_table.NATRT.id
 }
+Hiiiii
