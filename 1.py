@@ -55,3 +55,4 @@ resource "aws_route_table_association" "natRTass"{
 	route_table_id=aws_route_table.NATRT.id
 }
 Hiiiii
+ddffwf
